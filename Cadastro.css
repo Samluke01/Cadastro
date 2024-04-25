@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#318ce7, #afcdea );
+}
+
+form{
+    width: 96%;
+    margin: 10% auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+form fieldset{
+    border: 1px dashed black;
+    padding: 10px;
+    height: 30rem;
+}
+form legend{
+	text-align: left;
+	font-size: 17px;
+	color:black;
+    font-size: 30px;
+}
+
+fieldset input{
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6aa9e9;
+}
+
+fieldset label{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    font-size: 18px;
+}
+
+select{
+    width: 50%;
+    text-align: center;
+    margin: 4%;
+    background-color: #6aa9e9;
+}
+
+fieldset input:focus, fieldset select:focus{
+    outline: none;
+    background-color: #afcdea;
+}
+
+input[type="submit"]{
+    width: 50%;
+    margin: 7%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #035691;
+    box-shadow: #007fd97c 15px 15px 15px 15px;
+    transition: 1s;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #318ce7;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}

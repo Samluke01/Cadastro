@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Cadastro.css">
+</head>
+<body>
+    <form action="#">
+       <fieldset>
+        <legend>Cadastro</legend>
+        <div><label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div><label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+        </div>
+        <div><label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" name="data-nascimento" id="data-nascimento" required>
+        </div>
+        <div><label for="tel">Numero de Celular:</label>
+        <input type="tel" name="tel" id="tel" placeholder="(xx) xxxxx-xxxx" required>
+        </div>
+        <div><label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+        </div>
+        <div><label for="confirmar">Confirmar Senha:</label>
+        <input type="password" name="confirmar" id="confirmar" placeholder="Confirme sua Senha" required>
+        </div>
+        <div>
+            
+            <select name="Cidade" id="Cidade" required>
+                <option disabled selected>Qual a sua Cidade?</option>
+                <option value="Porto Alegre">Porto Alegre</option>
+                <option value="Florianópolis">Florianópolis</option>
+                <option value="Canoas">Canoas</option>
+                <option value="Viamão">Viamão</option>
+            </select>
+        </div>
+        <input type="submit" name="enviar" value="Cadastrar">
+       </fieldset>
+    </form>
+    <footer class="roda-pé">
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body> 
+</html>
